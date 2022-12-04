@@ -1,0 +1,104 @@
+.out{
+  position: relative;
+}
+
+.in{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+position: absolute;
+}
+
+.smile1{
+    position: relative;
+    border:2px solid yellow;
+    border-radius: 500px;
+    background-color: yellow;
+    margin:100px;
+    height:400px;
+    width: 400px;
+}
+
+.left_eye1{
+  position: absolute;
+  bottom:180px;
+  left:70px;
+  border-radius: 500px;
+  background-color: black;
+ height:50px;
+ width: 50px;
+}
+.right_eye1{
+  position: absolute;
+  bottom:180px;
+  left:290px;
+  border-radius: 500px;
+  background-color: black;
+ height:50px;
+ width: 50px;
+}
+.mouth1{
+  position: absolute;
+  bottom:80px;
+  left:130px;
+  border-radius: 500px;
+  background-color: black;
+  height:10px;
+  width: 150px;
+}
+
+.smile2{
+  
+  position: relative;
+  border:2px solid yellow;
+  border-radius: 500px;
+  background-color: yellow;
+  margin:100px;
+  height:400px;
+  width: 400px;
+
+}
+.left_eye2{
+  position: absolute;
+  bottom:180px;
+  left:70px;
+  border-radius: 500px;
+  background-color: black;
+ height:50px;
+ width: 50px;
+}
+.right_eye2{
+  position: absolute;
+  bottom:180px;
+  left:290px;
+  border-radius: 500px;
+  background-color: black;
+ height:50px;
+ width: 50px;
+}
+.mouth2{
+  position: absolute;
+  bottom:50px;
+  left:100px;
+  border-radius: 500px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  background-color: black;
+  height:100px;
+  width: 200px;
+
+}
+.teeth{
+  position: absolute;
+  bottom:120px;
+  left:100px;
+  border-radius: 500px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+
+  background-color: white;
+  height:30px;
+  width: 200px;
+}
